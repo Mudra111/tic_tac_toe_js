@@ -1,0 +1,203 @@
+body {
+	font-family: "Arial", sans-serif;
+	background-color: rgb(203, 220, 253);
+}
+
+.glass-title {
+	color: darkblue;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 50px;
+	text-shadow: 3px 3px 3px rgb(111, 110, 110);
+}
+
+section {
+	text-align: center;
+}
+
+.background {
+	background-image: url("./crackers.gif");
+}
+
+.select-mode,
+.select-icon,
+.select-grid {
+	margin: 230px auto;
+	width: 700px;
+	text-align: center;
+}
+
+.title-mode-text,
+.select-icon-text,
+.select-grid-text,
+.game--status {
+	color: darkblue;
+}
+
+.select-grid-btn,
+.select-icn-btn {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.select-m-btn {
+	width: 100%;
+}
+
+.comp-player,
+.friend-player,
+.online-player,
+.iconX,
+.iconO,
+.undo,
+.Mode3-3,
+.Mode4-4,
+.game--restart,
+.go-home,
+.create,
+.join {
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: rgba(0, 115, 255, 0.689);
+	border: 2px solid rgba(0, 115, 255, 0.689);
+	font-size: 18px;
+	font-weight: 700;
+	color: darkblue;
+	cursor: pointer;
+}
+
+.PlayerId {
+	padding: 10px 30px;
+	background-color: rgba(0, 115, 255, 0.689);
+	font-size: 18px;
+	font-weight: 700;
+	color: darkblue;
+}
+
+.flexD {
+	display: flex;
+}
+
+.flexD_hieght {
+	height: 40vh;
+}
+
+.avlblGameD {
+	width: 40%;
+}
+
+.avlblGame {
+	padding: 10px 30px;
+	background-color: rgba(0, 115, 255, 0.689);
+	font-size: 18px;
+	font-weight: 700;
+	color: darkblue;
+	width: 40%;
+	margin: 60px auto 0px auto;
+	border: 2px solid rgba(0, 115, 255, 0.295);
+}
+
+.list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.list li {
+	background-color: rgba(36, 134, 253, 0.342);
+	width: 40%;
+	font-size: 18px;
+	font-weight: 700;
+	color: darkblue;
+	margin: 0px auto;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: 2px solid rgba(36, 134, 253, 0.04);
+}
+
+.list li:hover {
+	border: 2px solid rgba(0, 115, 255, 0.689);
+}
+
+.comp-player:hover,
+.friend-player:hover,
+.online-player:hover,
+.iconX:hover,
+.iconO:hover,
+.undo:hover,
+.Mode3-3:hover,
+.Mode4-4:hover,
+.game--restart:hover,
+.go-home:hover,
+.create:hover,
+.join:hover {
+	background-color: rgba(0, 115, 255, 0.495);
+	border: 2px solid rgba(0, 115, 255, 0.593);
+	/* color: rgba(0, 115, 255, 0.841); */
+}
+
+.game--restart:disabled,
+.create:disabled,
+.join:disabled {
+	cursor: not-allowed;
+}
+
+.game--container_4 {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	width: 411px;
+	margin: 50px auto;
+}
+
+.game--container_3 {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 306px;
+	margin: 50px auto;
+}
+
+.cell3 {
+	font-family: "Parmanent Marker", cursive;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 0 1px rgba(0, 115, 255, 0.593);
+	border: 2px solid rgba(0, 115, 255, 0.593);
+	cursor: pointer;
+	line-height: 100px;
+	font-size: 60px;
+	color: rgba(3, 99, 216, 0.997);
+}
+
+.cell3:hover,
+.cell4:hover {
+	background-color: rgba(0, 115, 255, 0.593);
+}
+
+.cell4 {
+	font-family: "Parmanent Marker", cursive;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 0 1px rgba(0, 115, 255, 0.593);
+	border: 2px solid rgba(0, 115, 255, 0.593);
+	cursor: pointer;
+	color: rgb(3, 99, 216);
+	line-height: 100px;
+	font-size: 60px;
+}
+
+.hide {
+	display: none;
+}
+
+/* .cross:hover::before {
+	content: "X";
+}
+
+.circle:hover::before {
+	content: "O";
+} */
+
+.clickedBtn {
+	background-color: rgba(2, 41, 88, 0.689);
+}

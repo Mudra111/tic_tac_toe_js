@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<title>Tic-tac-toe</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body class="body">
+		<h1 class="glass-title">Tic Tac Toe</h1>
+		<div class="select-mode">
+			<div class="select-mode-title">
+				<h1 class="title-mode-text">
+					Select in which mode do you want to play?
+				</h1>
+			</div>
+			<div class="select-m-btn">
+				<button class="comp-player">Play with computer</button>
+				<button class="friend-player">Play with friend</button>
+				<button class="online-player">Play with friend(Online)</button>
+			</div>
+		</div>
+		<div class="select-icon">
+			<h1 class="select-icon-text">Select your icon to play</h1>
+			<div class="select-icn-btn">
+				<button class="iconX">icon X</button>
+				<button class="iconO">icon O</button>
+			</div>
+		</div>
+		<div class="select-grid">
+			<h1 class="select-grid-text">
+				Select the game Board (3 &#x2717; 3 or 4 &#x2717; 4)
+			</h1>
+			<div class="select-grid-btn">
+				<button class="Mode3-3">3 &#x2717; 3</button>
+				<button class="Mode4-4">4 &#x2717; 4</button>
+			</div>
+		</div>
+		<section class="main-board">
+			<div class="flexD">
+				<div class="game--container_4">
+					<div data-cell-index4="0" class="cell4"></div>
+					<div data-cell-index4="1" class="cell4"></div>
+					<div data-cell-index4="2" class="cell4"></div>
+					<div data-cell-index4="3" class="cell4"></div>
+					<div data-cell-index4="4" class="cell4"></div>
+					<div data-cell-index4="5" class="cell4"></div>
+					<div data-cell-index4="6" class="cell4"></div>
+					<div data-cell-index4="7" class="cell4"></div>
+					<div data-cell-index4="8" class="cell4"></div>
+					<div data-cell-index4="9" class="cell4"></div>
+					<div data-cell-index4="10" class="cell4"></div>
+					<div data-cell-index4="11" class="cell4"></div>
+					<div data-cell-index4="12" class="cell4"></div>
+					<div data-cell-index4="13" class="cell4"></div>
+					<div data-cell-index4="14" class="cell4"></div>
+					<div data-cell-index4="15" class="cell4"></div>
+				</div>
+				<div class="game--container_3">
+					<div data-cell-index="0" class="cell3"></div>
+					<div data-cell-index="1" class="cell3"></div>
+					<div data-cell-index="2" class="cell3"></div>
+					<div data-cell-index="3" class="cell3"></div>
+					<div data-cell-index="4" class="cell3"></div>
+					<div data-cell-index="5" class="cell3"></div>
+					<div data-cell-index="6" class="cell3"></div>
+					<div data-cell-index="7" class="cell3"></div>
+					<div data-cell-index="8" class="cell3"></div>
+				</div>
+				<div class="avlblGameD">
+					<p class="avlblGame">Select Room No. to join</p>
+
+					<ul class="list">
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="game--status"></h2>
+			<div class="GameStatusChangebtn">
+				<button class="game--restart">Restart Game</button>
+				<button class="go-home">Go Home</button>
+				<button class="undo">Undo</button>
+				<button class="create">Create Your Game Room</button>
+				<button class="join">Join</button>
+			</div>
+		</section>
+		<script src="index.js" defer></script>
+	</body>
+</html>
